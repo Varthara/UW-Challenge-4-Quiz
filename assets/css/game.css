@@ -1,51 +1,53 @@
 body {
-    color: aliceblue;
+	color: white;
+	padding-top: 110px;
 }
-
-.choice-container{
-    display: flex;
-    margin-bottom: 0.8rem;
-    width: 100%;
-    border-radius: 4px;
-    background-color: teal;
-    font-size: 3rem;
-    min-width: 80rem;
+.option-box {
+	display: flex;
+	margin-bottom: 20px;
+	width: 100%;
+	border-radius: 8px;
+	background: rgb(82, 82, 138);
+	font-size: 50px;
+	min-width: 1200px;
 }
-
-.choice-container:hover{
-    cursor: pointer;
-    transform: scale(1.04);
+.option-box:hover {
+	cursor: pointer;
+	transform: scale(1.01);
 }
-
-.choice-prefix{ 
-    padding: 2rem 2.5rem;
-    color: aliceblue;
+.option-text {
+	color: white;
+	width: 100%;
 }
-
-.choice-text {
-    padding: 2rem;
-    width: 100%;
-}
-
 .correct {
-    background: lightgreen;
-
+	font-size: 35px;
+    background: rgb(40, 134, 40);
 }
-
 .incorrect {
-    background: maroon;
+    font-size: 35px;
+	background: rgb(139, 21, 21);
 }
-
 #hud {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
-.hud-prefix {
-    text-align: center;
-    font-size: 2rem;
+.progressText {
+    font-size: 20px;
 }
 
-.hud-main-text {
-    text-align: center;
+.hud-prefix{
+    font-size: 20px;
+}
+
+#timerCountdown{
+    font-size: 20px;
+}
+
+#timer{
+    font-size: 20px;
+}
+
+#correctIncorrect{
+    font-size: 35px;
 }
