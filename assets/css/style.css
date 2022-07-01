@@ -48,7 +48,7 @@ h2 {
 	padding: 20px 0;
 	width: 200px;
 	text-align: center;
-	margin-bottom: 20px;
+	margin: 20px;
 	text-decoration: none;
 	color: rgb(7, 2, 2);
 	background: rgb(26, 71, 115);
@@ -58,6 +58,3 @@ h2 {
 	box-shadow: 0 10px 10px 0;
 }
 
-#username {
-	width: 35px;
-}
