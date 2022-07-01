@@ -46,11 +46,11 @@ let questions = [
 	},
 	{
 		question: 'What does the Monarch call the Cacoon at his wedding?',
-		choice1: 'The pride of the poisin sky',
+		choice1: 'The pride of the poison sky',
 		choice2: 'The Cacoon of Criminality',
 		choice3: 'A hive of havoc',
 		choice4: 'Alpha and Omega',
-		answer: 'The pride of the poisin sky',
+		answer: 'The pride of the poison sky',
 	},
 	{
 		question: 'What rank was Uncle Hatred with in the Guild?',
@@ -69,11 +69,13 @@ let questions = [
 function startGame() {
 	questionCounter = 0
 	score = 0
-	timer = 3000000
+	timer = 30
 	startTimer()
 	availableQuestions = [...questions] 
 	getNewQuestion()
 }
+
+// Function to set new question
 function getNewQuestion() {
 	document.getElementById('correctIncorrect').innerHTML = ''
 	if (
